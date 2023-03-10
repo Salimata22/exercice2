@@ -1,0 +1,144 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Outfit:wght@300;400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Fraunces', serif;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.conteneur{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+    border-radius: 1rem;
+    background-color: hsl(216, 50%, 16%);
+    
+
+}
+
+.image{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+    
+
+}
+
+.image1{
+    width: 100%;
+    height: 100%;
+    background-image: url('images/image-equilibrium.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+
+}
+
+.texte{
+    width: 80%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.titre{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 2rem;
+    
+
+}
+
+.paragraph{
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+.chiffre{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Big Shoulders Display', cursive;
+    
+}
+
+.chiffre div{
+    display: flex;
+    
+
+}
+
+.icon{
+    margin-right: 0.5rem;
+}
+
+h4{
+    font-family: 'Outfit', sans-serif;
+     color: hsl(178, 100%, 50%);
+    
+
+}
+
+.pied{
+    display: flex;
+    align-items: end;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.avatar{
+    height: 30px;
+    width: 30px;
+    margin-right: 1rem;
+    
+    
+}
+
+.avatar img{
+    width: 100%;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    
+}
+
+.pied p{
+    margin-right: 0.5rem;
+}
+
+.nom{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Fraunces', serif;
+
+    
+}
